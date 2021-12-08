@@ -263,6 +263,7 @@ for i in range(stage2_high):
         stage2[i] = "".join(stage2[i])
 
 #출력
+print()
 print("Stage 1")
 print()
 for i in range(stage1_high):

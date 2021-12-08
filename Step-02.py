@@ -57,9 +57,7 @@ while True:
                 stage2[player[0]][player[1]] = " "
                 stage2[player[0]-1][player[1]] = "P"
                 pt()
-                print(move[i].upper(),": 위쪽으로 이동합니다.")
-                
-                
+                print(move[i].upper(),": 위쪽으로 이동합니다.")   
             else:
                 pt()
                 print(move[i].upper(),": (경고!) 해당 명령을 수행할 수 없습니다!")   
@@ -69,9 +67,7 @@ while True:
                 stage2[player[0]][player[1]] = " "
                 stage2[player[0]][player[1]-1] = "P"
                 pt()
-                print(move[i].upper(),": 왼쪽으로 이동합니다.")
-                
-                
+                print(move[i].upper(),": 왼쪽으로 이동합니다.")                     
             else:
                 pt()
                 print(move[i].upper(),": (경고!) 해당 명령을 수행할 수 없습니다!")               
@@ -81,9 +77,7 @@ while True:
                 stage2[player[0]][player[1]] = " "
                 stage2[player[0]+1][player[1]] = "P"
                 pt()
-                print(move[i].upper(),": 아래쪽으로 이동합니다.")
-                
-                
+                print(move[i].upper(),": 아래쪽으로 이동합니다.")                 
             else:
                 pt()
                 print(move[i].upper(),": (경고!) 해당 명령을 수행할 수 없습니다!")    
@@ -93,16 +87,10 @@ while True:
                 stage2[player[0]][player[1]] = " "
                 stage2[player[0]][player[1]+1] = "P"
                 pt()
-                print(move[i].upper(),": 오른쪽으로 이동합니다.")
-                
-                
+                print(move[i].upper(),": 오른쪽으로 이동합니다.")            
             else:
                 pt()
                 print(move[i].upper(),": (경고!) 해당 명령을 수행할 수 없습니다!")
         
         else:
             print(move[i].upper(),": (경고!) 해당 명령을 수행할 수 없습니다!")
-    
-
-
-
